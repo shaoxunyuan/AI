@@ -6,7 +6,7 @@ bioproject_xml <- entrez_fetch(
   id = prjnaid,
   rettype = "xml"
 )
-```r
+
 
 BioProject 与 GEO 数据集的关联：GEO 数据库用于存档各种功能基因组学数据，在提交 GEO 数据集时，会自动创建一个 BioProject 和 BioSamples。这意味着 GEO 数据集是 BioProject 的一部分，BioProject 为 GEO 数据集提供了一个更广泛的项目背景和框架，用于描述整个研究项目的目标、范围和实验设计等。例如，一个关于肿瘤基因表达研究的 GEO 数据集，其背后可能有一个对应的 BioProject，用于整合该研究的所有相关数据，包括测序数据、样本信息等。
 
